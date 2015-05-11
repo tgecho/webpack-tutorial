@@ -3,9 +3,8 @@
 You can install webpack system wide, but you'll also need it in your local project so it can work properly with loaders and other plugins.
 
 ```sh
-# There's some sort of conflict with the latest version (1.8.4) of webpack that prevents messes with sourcemaps at the moment, so we'll leave the version pinned for now.
-$ npm install webpack@1.7.3 --global
-$ npm install webpack@1.7.3 --save
+$ npm install webpack --global
+$ npm install webpack --save
 ```
 
 ## Minimum Viable Bundle
@@ -89,7 +88,7 @@ module.exports = {
 };
 ```
 
-You can actually mix and match CommonJS, ES6 and even AMD style modules and Babel/Webpack will pretty much makes it all work together.
+You can actually mix and match CommonJS, ES6 and even AMD style modules and Babel/Webpack will pretty much make it all work together.
 
 References: [Using Loaders](http://webpack.github.io/docs/using-loaders.html) | [Babel](https://babeljs.io/)
 
